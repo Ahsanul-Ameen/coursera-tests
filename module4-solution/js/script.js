@@ -43,7 +43,7 @@ WARNING!!! WARNING!!!
   // using either the helloSpeaker's or byeSpeaker's 'speak' method.
   // See Lecture 50, part 1
   for (var name in names) {
-
+   
     // STEP 11:
     // Retrieve the first letter of the current name in the loop.
     // Use the string object's 'charAt' function. Since we are looking for
@@ -70,4 +70,7 @@ WARNING!!! WARNING!!!
 
 })(window);
 
-console.log("haha");
+
+//browser-sync start --server --directory --files "**/*"
+//go to the index.html page in browser
+//then inspect
